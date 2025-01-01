@@ -26,7 +26,6 @@ img {
     flex: 1; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
     align-items: center;
 }
 
@@ -59,6 +58,17 @@ img {
     background-color: #ff784e; 
 }
 
+/* .announcement {
+    background-color: #f9f9f9; 
+    border: 1px solid #f1f1f1; 
+    text-align: center; 
+    margin-top: auto; /* This will push the announcement to the bottom 
+    font-size: 1.2em; 
+    color: #333; 
+    padding: 20px;
+} 
+*/
+
 footer {
     text-align: center;
     padding: 10px 0;
@@ -71,5 +81,9 @@ footer {
     img {
         width: 100%; 
         margin-top: 150px; 
+    }
+
+    .button { 
+        margin-top: 25px; 
     }
 }
