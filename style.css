@@ -54,11 +54,11 @@ header {
 }
 
 .left-arrow {
-    left: 500px; 
+    left: 450px; 
 }
 
 .right-arrow {
-    right: 500px;
+    right: 450px;
 }
 
 .rev {
@@ -74,7 +74,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} 
 
 .button {
     width: 300px; 
@@ -114,6 +114,32 @@ header {
 
 .tracker:hover {
     background-color: #aec5ad; 
+}
+
+.socials-container {
+    display: flex;         
+    justify-content: center;
+    gap: 10px;              
+}
+
+.button.socials {
+    width: auto;     
+    padding: 0;             
+    border: 0px white solid;     
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    height: 40px;
+    cursor: pointer;
+    transition: none;        
+}
+
+.socials:hover {
+    background-color: transparent;
+    color: inherit;
 }
 
 footer {
@@ -162,6 +188,6 @@ footer {
     }
 
     .right-arrow {
-        right: 6px;
+        right: 6px; 
     }
 }
